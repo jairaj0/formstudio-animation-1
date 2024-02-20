@@ -1,3 +1,21 @@
+:root {
+  --dark: #000;
+  --light: #ffffff;
+}
+
+*,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Almarai", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  background-color: var(--dark);
+}
+
 nav {
     position: fixed;
     width: 100%;
@@ -8,7 +26,10 @@ nav {
     z-index: 999;
   }
   nav .navLink {
+    text-decoration: none;
     height: 45px;
+    display: flex;
+    align-items: center;
     justify-content: flex-start;
     border: 1px solid var(--light);
     border-radius: 5rem;
