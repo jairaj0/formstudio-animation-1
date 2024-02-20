@@ -1,0 +1,28 @@
+nav {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    z-index: 999;
+  }
+  nav .navLink {
+    height: 45px;
+    justify-content: flex-start;
+    border: 1px solid var(--light);
+    border-radius: 5rem;
+    padding-left: 0.8rem;
+    border-bottom-color: transparent;
+    border-top-color: transparent;
+    transition: all 0.5s ease-in-out;
+    color: var(--light);
+    margin: 1rem;
+  }
+  nav .navLink span {
+    font-size: 30px;
+    color: var(--light);
+    font-family: sans-serif;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+  }
